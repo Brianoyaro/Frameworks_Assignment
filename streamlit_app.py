@@ -38,6 +38,8 @@ def load_data():
     """Load and cache the CORD-19 dataset"""
     try:
         df = pd.read_csv('metadata.csv', low_memory=False)
+        # df = pd.read_csv('metadata.csv', nrows=300, low_memory=False) # reading 300 rows because of low computer resources
+        
         # Basic cleaning
         df = df.dropna(subset=['title'])
         df['publish_time'] = pd.to_datetime(df['publish_time'], errors='coerce')
