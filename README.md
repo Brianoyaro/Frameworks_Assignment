@@ -117,7 +117,8 @@ This project provides a comprehensive analysis of the CORD-19 dataset, focusing 
 ### 🔧 Setup
 ```bash
 # Install required packages
-pip install pandas matplotlib seaborn streamlit wordcloud
+# pip install pandas matplotlib seaborn streamlit wordcloud
+pip install -r requirements.txt
 
 # Ensure metadata.csv is in the project directory
 ```
@@ -138,70 +139,3 @@ streamlit run streamlit_app.py
 # Open browser to http://localhost:8501
 ```
 
-## Features
-
-### 📊 Interactive Analysis
-- Filter data by year range
-- Explore different aspects of the research
-- Download filtered datasets
-- View real-time statistics
-
-### 📈 Comprehensive Visualizations
-- Publication trends over time
-- Top research journals and venues
-- Word frequency analysis
-- Abstract length distributions
-- Monthly publication patterns
-
-### 🔍 Data Exploration
-- Sample data viewing
-- Statistical summaries
-- Missing data analysis
-- Data quality assessment
-
-## Educational Value
-
-### 💡 Learning Outcomes
-- **Data Science Workflow**: Complete pipeline from loading to deployment
-- **Data Cleaning**: Handling missing values and data quality issues
-- **Exploratory Data Analysis**: Statistical analysis and pattern discovery
-- **Data Visualization**: Creating meaningful charts and graphs
-- **Web Development**: Building interactive applications with Streamlit
-- **Text Analysis**: Processing and analyzing textual data
-
-### 🎯 Skills Demonstrated
-- Python programming proficiency
-- Pandas for data manipulation
-- Matplotlib/Seaborn for visualization
-- Streamlit for web app development
-- Data cleaning and preparation
-- Statistical analysis and interpretation
-
-## Future Enhancements
-
-### 🔮 Potential Improvements
-- **Advanced NLP**: Sentiment analysis, topic modeling
-- **Machine Learning**: Clustering, classification of research topics
-- **Geographic Analysis**: Author affiliations and global research patterns
-- **Citation Analysis**: Impact and influence metrics
-- **Time Series Forecasting**: Predict future research trends
-
-### 🛠 Technical Upgrades
-- Database integration for better performance
-- Advanced caching for large datasets
-- User authentication and personalization
-- Export to multiple formats (PDF, Excel)
-- API integration for real-time data updates
-
-## Conclusion
-
-This CORD-19 analysis project successfully demonstrates a complete data science workflow, from raw data exploration to interactive web application deployment. It provides valuable insights into COVID-19 research patterns and serves as an excellent educational example of modern data analysis techniques.
-
-The project fulfills all assignment requirements:
-- ✅ **Complete Implementation (40%)**: All tasks completed
-- ✅ **Code Quality (30%)**: Well-commented, readable code
-- ✅ **Visualizations (20%)**: Clear, appropriate charts
-- ✅ **Streamlit App (10%)**: Functional interactive application
-
----
-*Created for Frameworks Assignment - COVID-19 Research Data Analysis*
